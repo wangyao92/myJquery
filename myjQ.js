@@ -10,7 +10,7 @@
 
     //处理push在ie9以下中不支持伪数组的问题
     try {
-        push.apply([],document.getElementsByTagName("*"));
+        push.apply([],document.getElementsByTagName("*")); 
     }catch ( e ){
         push = {
             apply : function(a,b){
